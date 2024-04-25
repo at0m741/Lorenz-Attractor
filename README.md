@@ -4,7 +4,25 @@ This program visualizes the Lorenz Attractor using the Runge-Kutta 4th order met
 
 ## Introduction
 
-The Lorenz Attractor is a set of chaotic solutions to a system of three ordinary differential equations. It is a classic example of a chaotic system, and its dynamic behavior is widely studied in various fields including mathematics, physics, and engineering.
+The Lorenz Attractor is a set of chaotic solutions to a system of three ordinary differential equations. It was first studied by Edward Lorenz in 1963 while he was investigating atmospheric convection. The equations describe the dynamics of a simple model for atmospheric convection and exhibit chaotic behavior for certain parameter values.
+
+## Mathematics
+
+The Lorenz Attractor is governed by the following system of differential equations:
+
+\[
+\begin{aligned}
+\frac{dx}{dt} &= \sigma(y - x) \\
+\frac{dy}{dt} &= x(\rho - z) - y \\
+\frac{dz}{dt} &= xy - \beta z
+\end{aligned}
+\]
+
+Where:
+\begin{itemize}
+  \item \(x\), \(y\), and \(z\) are the state variables representing the position of the system in three-dimensional space.
+  \item \(\sigma\), \(\rho\), and \(\beta\) are parameters of the system, controlling the behavior of the attractor.
+\end{itemize}
 
 ## Dependencies
 
