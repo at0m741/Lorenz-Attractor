@@ -9,18 +9,15 @@ The Lorenz Attractor is a set of chaotic solutions to a system of three ordinary
 ## Mathematics
 
 The Lorenz Attractor is governed by the following system of differential equations:
-for dx:
-$$
+```math
 \frac{dx}{dt} = \sigma(y - x)
-$$
-dy:
-$$
+```
+```math
 \frac{dy}{dt} = x(\rho - z) - y
-$$
-dz:
-$$
+```
+```math
 \frac{dz}{dt} = xy - \beta z
-$$
+```
 
 Where:
 - $\(x\)$, $\(y\)$, and $\(z\)$ are the state variables representing the position of the system in three-dimensional space.
