@@ -35,4 +35,4 @@ Make sure you have SDL2 installed on your system. You can install it using your 
 Compile the program using any C compiler. For example, if you have `gcc` installed, you can compile the program by running:
 
 ```bash
-gcc -o lorenz_attractor lorenz_attractor.c -lm -lSDL2
+gcc -o lorenz_attractor Lorenz.c -lm -lSDL2 -O3 -fopenmp -mvx2
